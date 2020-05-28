@@ -1,0 +1,74 @@
+.main-conatiner {
+  display: flex;
+  max-width: 800px;
+  margin: 100px auto;
+  justify-content: center;
+}
+
+.image-container {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image-container img {
+  width: 250px;
+  height: 250px;
+}
+
+.coin-info-container {
+  max-width: 400px;
+  padding: 20px 40px;
+  background-color: rgba(196, 196, 196, 0.5);
+}
+
+.coin-info-container p {
+  white-space: pre-line;
+  font-size: 12px;
+}
+
+.coin-info-container table {
+  margin: 20px auto;
+  font-size: 10px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.coin-info-container table tbody tr:nth-child(2n-1) {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.coin-info-container table tbody tr td {
+  width: 50%;
+}
+
+.coin-info-container table tbody tr td {
+  border: 1px solid rgb(172, 170, 170);
+  padding: 3px;
+}
+
+.coin-info-container table tbody tr:first-child td {
+  border-top: 0ch;
+}
+
+.coin-info-container table tbody tr td:first-child {
+  border-left: 0ch;
+}
+.coin-info-container table tbody tr:last-child td {
+  border-bottom: 0ch;
+}
+
+.coin-info-container table tbody tr td:last-child {
+  border-right: 0ch;
+}
+
+.coin-info-container table tbody tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+
+.back-to-list-button {
+  text-decoration: underline;
+  border: none;
+  background-color: #e1e1e1;
+  font-size: 10px;
+}

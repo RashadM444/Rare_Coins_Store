@@ -1,0 +1,78 @@
+.all-list-menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.coin-menu-item {
+  align-items: center;
+}
+.button {
+  text-decoration: none;
+  height: 50px;
+  width: 120px;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: #e5e5e5;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-modal {
+  padding: 20px;
+  height: 300px;
+  width: 400px;
+  background-color: #b2eaec;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.delete-modal p {
+  font-size: 16px;
+  align-self: center;
+  text-align: center;
+}
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  width: 100%;
+  margin: auto;
+  background-color: rgba(46, 45, 38, 0.9);
+  height: 100%;
+}
+
+.new-coin {
+  width: 400px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.new-coin h3 {
+  margin-left: 50px;
+  text-align: center;
+  align-self: center;
+}
+.for-image {
+  height: 120px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 50%;
+}
+
+.for-image p {
+  text-decoration: none;
+}
+.navlink {
+  text-decoration: none;
+}

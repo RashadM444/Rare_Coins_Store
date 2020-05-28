@@ -1,0 +1,9 @@
+.uni-input {
+  width: 375px;
+  border: 1px solid #000000;
+  padding-left: 5px;
+}
+.input-div {
+  display: flex;
+  flex-direction: column;
+}

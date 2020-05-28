@@ -1,0 +1,42 @@
+.advanced-filter-button {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.simple-search-container {
+  margin-top: 40px;
+  margin-bottom: 5px;
+  display: flex;
+  width: 530px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.main-filter-container {
+  margin-top: 30px;
+  display: flex;
+}
+.first-filter-container {
+  margin-right: 55px;
+  display: flex;
+  flex-direction: column;
+}
+.filter-select {
+  margin-top: 5px;
+  border: 1px solid #000000;
+  width: 374px;
+  height: 48px;
+  margin-bottom: 20px;
+}
+.price-year-selection {
+  margin-bottom: 20px;
+}
+.range-input {
+  border: 1px solid #000000;
+  width: 155px;
+  height: 48px;
+  margin: 0 10px;
+}
+.from-to-input {
+  margin-top: 5px;
+}

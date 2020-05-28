@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  flex: auto;
+}
+
+.admin-panel-button {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  border: 0.1em solid black;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+}
+.admin-panel-button:hover {
+  border-color: whitesmoke;
+  background-color: #833ae0;
+  color: whitesmoke;
+}
+
+.logo-img {
+  width: 300px;
+}

@@ -1,0 +1,33 @@
+.admin-login-form {
+  width: 500px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.admin-login-form label {
+  width: 500px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.admin-login-form input {
+  height: 50px;
+  margin-bottom: 10px;
+  border: 1px solid #000000;
+  padding: 0 10px;
+}
+.violet-button {
+  margin: 0 auto;
+  text-decoration: none;
+  width: 120px;
+  height: 50px;
+  border: none;
+  background-color: #833ae0;
+  color: whitesmoke;
+}

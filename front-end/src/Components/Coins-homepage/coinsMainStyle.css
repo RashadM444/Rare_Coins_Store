@@ -1,0 +1,26 @@
+.main-menu {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  width: 110%;
+}
+.coin-item {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-coin {
+  width: 214px;
+  height: 214px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+.show-all-button {
+  color: black;
+  font-size: 14px;
+}
