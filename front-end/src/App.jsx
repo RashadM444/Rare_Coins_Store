@@ -7,6 +7,7 @@ import CoinsMain from "./Components/Coins-homepage/CoinsMain";
 import CoinList from "./Components/Coins-lists/CoinList";
 import CoinItem from "./Components/CoinItem/CoinItem";
 import AdminLogin from "./Components/AdminLogin/AdminLogin";
+import AdminPanel from "./Components/AdminPanel/AdminPanel";
 
 export default class App extends React.Component {
   render() {
@@ -19,6 +20,7 @@ export default class App extends React.Component {
             <Route path='/coins' component={CoinList} />
             <Route path='/coin' component={CoinItem} />
             <Route path='/admin' component={AdminLogin} />
+            <Route path='/admin/panel' component={AdminPanel} />
           </Switch>
         </Router>
       </Provider>
