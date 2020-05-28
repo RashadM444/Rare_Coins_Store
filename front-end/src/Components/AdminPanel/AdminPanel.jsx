@@ -9,9 +9,9 @@ class AdminPanel extends Component {
   state = {
     deleteClicked: false,
   };
-  componentDidMount() {
+  componentDidMount = () => {
     this.props.dispatch(fetchAllCoins());
-  }
+  };
   toggleWindow = (e) => {
     this.setState({
       deleteClicked: !this.state.deleteClicked,
@@ -58,7 +58,6 @@ class AdminPanel extends Component {
                 <img src={coin.obverse} alt={coin.name} />
                 <div className='item-info'>
                   <h3>{coin.name}</h3>
-
                   <p>{coin.shortInfo}</p>
                 </div>
                 <NavLink

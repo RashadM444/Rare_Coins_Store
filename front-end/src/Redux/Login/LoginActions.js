@@ -39,8 +39,9 @@ export const loginUser = (username, pass) => {
       .then((res) => res.json())
       .then((data) => {
         console.log(data.token);
-        history.push("/admin/panel");
+
         dispatch(postLoginSuccess(data));
+        // history.push("/admin/panel");
       })
       .catch((err) => {
         dispatch(postLoginFailure(err.message));

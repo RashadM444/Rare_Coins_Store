@@ -1,3 +1,4 @@
+import history from "../../History";
 import {
   FETCH_ALLCOINS_REQUEST,
   FETCH_ALLCOINS_SUCCESS,
@@ -31,7 +32,7 @@ export const fetchAllCoins = () => {
       .then((resp) => resp.json())
       .then((res) => {
         const allCoins = res;
-
+        history.push("/admin/panel");
         dispatch(fetchAllCoinsSuccess(allCoins));
       })
       .catch((err) => {
